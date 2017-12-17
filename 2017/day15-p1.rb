@@ -5,7 +5,7 @@ divider = 2147483647
 count = 0
 a, b = *input
 
-iteration.times do
+40_000_000.times do
   a = (a * factors.first) % divider
   b = (b * factors.last) % divider
 

@@ -4,11 +4,10 @@ divider = 2147483647
 multipliers = [4, 8]
 
 count = 0
-iteration = 5_000_000
 
 a, b = *input
 
-iteration.times do
+5_000_000.times do
   begin
     a = (a * factors.first) % divider
   end until a % multipliers.first == 0
